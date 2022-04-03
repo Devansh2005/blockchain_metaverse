@@ -22,11 +22,18 @@
 
 ## Setting Up
 ### 1. Clone/Download the Repository
+`git clone https://github.com/Devansh2005/blockchain_metaverse.git`
+
 
 ### 2. Install Dependencies:
 `$ npm install `
 
-### 3. Migrate Smart Contracts
+## open the terminal and start testing 
+
+- Run `ganache-cli` - This will give 10 Private keys and accounts having 100 eth each.
+
+
+### 3. Migrate Smart Contracts (Deployment) -- on another terminal
 `$ truffle migrate --reset`
 
 ### 4. Test Smart Contracts
@@ -34,4 +41,6 @@
 
 ### 5. Start Frontend
 `$ npm start`
+
+### Don't Forget to connect your metamask account with one of the ganache-cli Private key. 
 
